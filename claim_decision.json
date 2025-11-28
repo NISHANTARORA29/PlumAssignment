@@ -1,0 +1,13 @@
+{
+  "claim_id": "CLM_20251129010656",
+  "decision": "REJECTED",
+  "approved_amount": 0,
+  "rejection_reasons": [
+    "PATIENT_MISMATCH"
+  ],
+  "flags": [],
+  "confidence_score": 1.0,
+  "notes": "Document validation failed",
+  "deductions": {},
+  "next_steps": ""
+}

@@ -1,0 +1,10 @@
+__pycache__/
+.env
+.env.*
+uploads/
+*.db
+*.sqlite
+*.pdf
+*.jpg
+*.png
+

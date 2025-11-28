@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-11-28T22:20:35.060047",
+  "total_tests": 10,
+  "passed": 9,
+  "failed": 1,
+  "results": [
+    {
+      "case_id": "TC001",
+      "case_name": "Simple Consultation - Approved",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "case_id": "TC002",
+      "case_name": "Dental Treatment - Partial Approval",
+      "passed": false,
+      "issues": [
+        "Decision mismatch: expected PARTIAL, got REJECTED",
+        "Amount mismatch: expected \u20b98000, got \u20b90 (diff: \u20b98000.00)"
+      ]
+    },
+    {
+      "case_id": "TC003",
+      "case_name": "Limit Exceeded - Rejected",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "case_id": "TC004",
+      "case_name": "Missing Documents - Rejected",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "case_id": "TC005",
+      "case_name": "Pre-existing Condition - Waiting Period",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "case_id": "TC006",
+      "case_name": "Alternative Medicine - Approved",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "case_id": "TC007",
+      "case_name": "Diagnostic Tests - Pre-auth Required",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "case_id": "TC008",
+      "case_name": "Fraud Detection - Manual Review",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "case_id": "TC009",
+      "case_name": "Excluded Treatment - Rejected",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "case_id": "TC010",
+      "case_name": "Network Hospital - Cashless Approved",
+      "passed": true,
+      "issues": []
+    }
+  ]
+}
